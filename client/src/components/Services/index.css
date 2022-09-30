@@ -1,0 +1,42 @@
+.services {
+    margin-top: 8rem;
+}
+
+.services .top, .services .bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.services .white-square{
+    width: 20vw;
+    height: 18vw;
+    background-color: white;
+}
+
+.services .top .left{
+    margin-right: 3rem;
+}
+
+.services .top .left h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.services .top .left h1 span {
+    color: #676767;
+}
+
+.services .top .left h3{
+    font-size: 1.3rem;
+}
+
+.services .bottom .right{
+    text-align: right;
+    margin-left: 3rem;
+}
+
+.services .bottom .right h3{
+    font-size: 1.3rem;
+}

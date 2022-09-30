@@ -1,0 +1,85 @@
+.header nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+}
+
+nav ul .nav-item{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+nav ul .nav-item:hover{
+    cursor: pointer;
+}
+
+nav ul .nav-item.contact{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul .nav-item#contact svg{
+    margin-left: .3rem;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.header nav{
+    width: 60%;
+}
+
+.contact-sub-modal{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    top: 30px;
+    padding: 30px;
+    right: 0;
+    border-radius: .7rem;
+    color: black;
+}
+
+.contact-sub-modal .socials .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-sub-modal .socials span{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-sub-modal .sub-heading{
+    width: fit-content;
+    padding: .5rem 1rem;
+    background: #000;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact-sub-modal .phone, .contact-sub-modal .email{
+    border-top: 1px solid #CECECE;
+    padding: 1rem 0;
+}
+
+.contact-sub-modal span{
+    text-align: center;
+    display: block;
+    margin-top: .5rem;
+}

@@ -1,0 +1,75 @@
+.about-me-container h1 {
+    font-size: 4rem;
+    margin-top: 8rem;
+}
+
+.about-me-container h1 span {
+    color: #676767;
+}
+
+.about-me-container .nav-items {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.about-me-container .nav-items .nav-item {
+    flex-grow: 1;
+    background-color: white;
+    color: #848484;
+    text-align: center;
+    padding: 1.3rem 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.about-me-container .nav-items .nav-item.active {
+    background-color: #676767;
+    color: white;
+}
+
+.about-me-container .nav-items .nav-item:hover{
+    cursor: pointer;
+}
+
+.about-me-container .other {
+    position: absolute;
+    left: 110%;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    margin-top: 5rem;
+    margin-bottom: 30px;
+}
+
+.about-me-container .other.show-other {
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+.about-me-container .other.about-me {
+    display: flex;
+}
+
+.about-me-container .about-me .left {
+    flex: 5;
+}
+
+.about-me-container .about-me .right {
+    flex: 7;
+}
+
+.about-me-container .about-me .left {
+    flex: 5;
+}
+
+.about-me-container .about-me .white-rectangle {
+    width: 20vw;
+    height: calc(20vw * 4 / 3);
+    background-color: white;
+}
+
+.about-me-container .about-me p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
