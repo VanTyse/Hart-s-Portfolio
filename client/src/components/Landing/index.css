@@ -109,3 +109,49 @@
 .landing .left .buttons button.download{
     background-color: white;
 }
+
+@media screen and (max-width : 768px) {
+    .landing{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .landing .image-container .image{
+        width: 50vw;
+        height: calc(50vw * 4 / 3);
+    }
+    
+    .landing .image-container .image img{
+        width: 50vw;
+        height: calc(50vw * 4 / 3);
+    }
+    
+    .landing .image-container .image:before{
+        width: 50vw;
+        height: calc(50vw * 4 / 3);
+    }
+
+    .landing h1 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .landing h2{
+        font-size: 20px;
+    }
+
+    .landing .right .info {
+        align-items: center;
+    }
+
+    .landing .right .info div {
+        width: 50vw;
+    }
+
+    .landing .left .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

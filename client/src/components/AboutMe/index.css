@@ -73,3 +73,16 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px) {   
+    .about-me-container .other.about-me {
+        display: block;
+    }
+
+    .about-me-container .about-me .white-rectangle {
+        width: 200px;
+        height: calc(200px * 4 / 3);
+        margin: 0 auto 30px auto;
+        background-color: white;
+    }
+}

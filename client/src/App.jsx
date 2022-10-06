@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header, Services, Landing, Projects, AboutMe } from './components'
+import { Header, Services, Landing, Projects, AboutMe, SideBar } from './components'
 import './App.css'
 
 function App() {
