@@ -25,7 +25,7 @@ export const AboutMe = () => {
         </div>
       </div>
 
-      <div style={{position: 'relative'}}>
+      <div style={{position: 'relative',overflowX: 'hidden'}}>
       <div className={`other about-me ${show === 'about-me' && 'show-other'}`}>
         <div className="left">
           <div className="white-rectangle"></div>
